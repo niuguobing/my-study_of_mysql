@@ -1,0 +1,33 @@
+CHAPTER14
+
+存储过程和函数
+1、创建存储过程
+2、创建存储函数
+3、变量的使用
+4、定义条件和处理程序
+5、光标的使用
+6、流程控制的使用
+7、调用存储过程和函数
+8、查看存储过程和函数
+9、修改存储过程和函数
+10、删除存储过程和函数
+
+创建存储过程
+CREATE PROCEDURE sp_name([proc_paremeter[,……]])
+	[characteristic ……]rountline_body
+   sp_name存储过程的名称；proc_paremeter存储过程的参数列表；characteristic参数指定存储过程的特性；rountline_body市sql代码的内容，可以用BEGIN ^END 语句
+
+   proc_paremeter 中的每个参数由三部分组成；分别是输入输出类型、参数名称和参数类型
+
+   [IN|OUT|INOUT]param_name_type
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
