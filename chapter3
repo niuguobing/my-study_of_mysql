@@ -1,0 +1,55 @@
+1part 1
+chapter3       Linux平台下安装与配置MySQL
+
+在Linux系列的操作系统下，一般都使用命令来安装MySQL数据库。因为Linux操作系统的发行版比较多，所以相应的MySQL版本也比较多。相同Linux发行版也有不同的MySQL软件包。读者需要根据自己的操作系统的版本来下载和安装不同的MySQL版本。本章将向读者介绍的内容如下：
+Linux操作系统下的MySQL版本介绍
+安装和配置MySQL的RPM包
+安装和配置MySQL的二进制包
+安装和配置MySQL的源码包
+3.1  Linux操作系统下的MySQL版本介绍
+Linux操作系统的发行版很多，不同Linux发行版的MySQL版本是不同的。MySQL数据库主要支持的Linux版本是Red Hat Enterprise Linux和SUSE Linux Enterprise Server。这两个版本下也有不同的安装包。本小节将为读者介绍一些Linux操作系统下的MySQL版本的内容。
+Linux操作系统的MySQL软包一般分为三类，分别是RPM软件包，二进制软件包和源码包。这三类MySQL软件包的介绍如下：
+RPM软件包：
+二进制包：
+源码包：
+1．Red Hat Enterprise Linux发行版
+2．SUSE Linux Enterprise Server发行版
+3.1  Linux操作系统下的MySQL版本介绍
+Linux版本	                推荐安装的MySQL版本
+Red Hat Enterprise Linux	RPM软件包
+SUSE Linux Enterprise Server	RPM软件包
+Fedora	                        RPM软件包
+Ubuntu	                        源码包
+CentOS	                        RPM软件包
+
+3.2  安装和配置MySQL的RPM包
+
+3.3  安装和配置MySQL的二进制包
+
+Linux操作系统下有以二进制的形式发布的MySQL软件包。这些二进制的MySQL软件包比RPM包要灵活，但是安装没有RPM包那么容易。本小节将为读者介绍MySQL的二进制包的安装与配置。
+先必须到MySQL官方网站下载二进制包，
+
+3.4  安装和配置MySQL的源码包
+
+Linux操作系统下有以源码的形式发布的MySQL软件包。这样的软件包中是MySQL的源代码，需要用户自己进行编译。这种MySQL软件包的灵活性最高，用户可以根据自己的需要进行定制。而且，感兴趣的用户可以查看MySQL的源代码。但是编译代码耗费的时间比较长。本小节将为读者介绍MySQL的源码包的安装与配置。
+先必须到MySQL官方网站下载源码包，
+
+上机与习题
+通过本章的学习，读者需要掌握在Linux操作系统下安装MySQL的RPM软件包、二进制软件包、源码包的方法。并且，应该掌握手动配置MySQL的方法。如果读者的Linux发行版能够使用RPM软件包，推荐首选RPM软件包来安装MySQL数据库。源码包安装的难度比较大，需要有熟练使用Linux操作系统的能力。因此，读者可以选择性的学习。
+1．在Linux操作系统下用RPM包来安装MySQL数据库
+2．在Linux操作系统下用二进制包来安装MySQL数据库
+3．在Linux操作系统下用源码包来安装MySQL数据库
+4. 练习手动配置MySQL的配置文件。
+
+
+
+
+
+
+
+
+
+
+
+
+	
